@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="csiit.attendance_entry"
+             xmlns:Local="clr-namwspace:csiit"
+             BackgroundImageSource="background.png">
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0, 20, 0, 0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+
+
+    <StackLayout>
+
+        <Label Text="ACADEMIC YEAR " FontSize="Title" FontAttributes="Bold"></Label>
+        <Entry HeightRequest="100" WidthRequest="150"  Grid.Row="1" Placeholder = "ACADEMIC YEAR"     Keyboard = "Text"  ></Entry>
+        <Label Text="SEMESTER" FontSize="Title" FontAttributes="Bold"></Label>
+            <Picker x:Name="MainPicker" 
+                SelectedIndexChanged="MainPicker_SelectedIndexChanged"/>
+
+        <StackLayout Margin="10">
+            <Label Text="Days Between Dates" FontSize="Title"
+               Style="{DynamicResource TitleStyle}"
+               Margin="0, 20"
+               HorizontalTextAlignment="Center" />
+
+            <Label Text="Start Date:" />
+
+            <DatePicker x:Name="startDatePicker"
+                    Format="D"
+                    Margin="30, 0, 0, 30"
+                    DateSelected="OnDateSelected" />
+
+            <Label Text="End Date:" />
+
+            <DatePicker x:Name="endDatePicker"
+                    MinimumDate="{Binding Source={x:Reference startDatePicker},
+                                          Path=Date}"
+                    Format="D"
+                    Margin="30, 0, 0, 30"
+                    DateSelected="OnDateSelected" />
+
+            <StackLayout Orientation="Horizontal"
+                     Margin="0, 0, 0, 30">
+                <Label Text="Include both days in total: "
+                   VerticalOptions="Center" />
+                <Switch x:Name="includeSwitch"
+                    Toggled="OnSwitchToggled" />
+            </StackLayout>
+
+            <Label x:Name="resultLabel"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center" />
+
+        </StackLayout>
+
+        <Button Text="SUBMIT" Clicked="Button_Clicked"/>
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,20 @@
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\csiit.csproj.AssemblyReference.cache
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\csiit.GeneratedMSBuildEditorConfig.editorconfig
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\csiit.AssemblyInfoInputs.cache
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\csiit.AssemblyInfo.cs
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\csiit.csproj.CoreCompileInputs.cache
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\csiit.dll
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\refint\csiit.dll
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\csiit.pdb
+C:\KEVIN\apps\csiit\csiit\bin\Debug\netstandard2.0\csiit.deps.json
+C:\KEVIN\apps\csiit\csiit\bin\Debug\netstandard2.0\csiit.dll
+C:\KEVIN\apps\csiit\csiit\bin\Debug\netstandard2.0\csiit.pdb
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\XamlC.stamp
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\ref\csiit.dll
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\welcome.xaml.g.cs
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\attendance entry.xaml.g.cs
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\attendance enty detail.xaml.g.cs
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\markentry.xaml.g.cs
+C:\KEVIN\apps\csiit\csiit\obj\Debug\netstandard2.0\markentrydetail.xaml.g.cs
